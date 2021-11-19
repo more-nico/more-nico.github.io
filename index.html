@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: myfont;
+            src: url(source/FZFWHuanLTJW.TTF);
+        }
+        body{
+            align-items: center;
+            justify-content: center;
+            background-color: pink;
+        }
+        .header{
+            
+            background-color: yellowgreen;
+        }
+        .header .wuhu{
+            padding: 10px;
+            text-align: center;
+        }
+        .header .wuhu .word{
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+        .header .wuhu .leyuan{
+            font-size: 60px;
+            font-family: myfont;
+            font-weight: bold;
+            color:red;
+        }
+        .form-wrapper{
+            margin: 0 auto;
+            text-align: center;
+            width: 300px;
+            color: #ffffff;
+            border-radius: 2px;
+            padding: 10px;
+        }
+        .form-wrapper .input .item{
+            text-align: center;
+            font-size: 20px;
+            padding: 7px 15px;
+            width: calc(100% - 4px);
+            border-radius: 15px;
+        }
+        .form-wrapper .submit{
+            width: 330px;
+            text-align: center;
+            padding: 30px 0px 0px 0px;
+        }
+        .form-wrapper  .submit .btn{
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px 20px 10px 20px;
+        }
+        .music{
+        }
+        .music .music{
+            width: 100%;
+        }
+
+        .mail{
+            text-align: right;
+        }
+        .mail .btn{
+            background-color: #4c8baf; /* 绿色 */
+            border: none;
+            color: white;
+            padding: 5px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="wuhu">
+            <span class="word">欢迎来到MORE-NICO的</span>
+            <span class="leyuan">失乐园</span>
+        </div>
+    </div>
+    
+    <div class="form-wrapper">
+        <form action="">
+            <div class="input">
+                <input type="text" name="username" placeholder="用户名" class="item"><br><br>
+                <input type="password" name="password" placeholder="密码" class="item"><br>
+            </div>
+            <div class="submit">
+                <input type="submit" value="提交" class="btn">
+            </div>
+            
+        </form>
+    </div>
+    
+    <img src="source/RIGHT.png"  align="left" width="500" alt="加载失败" >
+    <img src="source/LEFT.png" align="right" width="500" alt="加载失败" ><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="music">
+        <audio controls="" autoplay="" name="media" class="music">
+            <source src="source/boyz.mp3" type="audio/mpeg">
+            你的浏览器太老啦！！快去更新吧
+        </audio>
+    </div>
+    
+    <div class="mail">
+        <a href="mailto:17674325527@163.com">
+            <button id="btn" class="btn">点击给我发邮件</button>
+        </a><br>
+    </div>
+
+    <!-- <div class="form-wrapper">
+        <div class="header">
+            请登录
+        </div>
+        <div class="input-wrapper">
+            <div class="input-wrapper">
+                <input type="text" name="username" placeholder="用户名" class="username">
+                <input type="password" name="password" placeholder="密码" class="password">
+            </div>
+            <div class="btn"></div>
+        </div>
+    </div> -->
+</body>
+</html>
